@@ -1,6 +1,7 @@
 /* Header part */
 body {
     margin : 0;
+    font-family: Roboto, sans-serif;
 }
 .container {
     background-color: #1F2937;
@@ -132,3 +133,46 @@ h2 {
     font-weight: bold;
     justify-content: right;
 }
+
+/* Action part */
+.action-container {
+    height: 400px;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+.action {
+    background-color: #3882F6;
+    display : flex;
+    padding : 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    gap : 300px;
+    width : 1000px;
+    height: 100px;
+}
+
+.bold {
+    font-weight: 700;
+    font-size: 24px;
+    color : white;
+}
+
+.left-sign p {
+    color : white;
+}
+
+.button-sign {
+    background-color: #3882F6;
+    border-color: white;
+    color : white;
+    border-radius : 5px;
+    padding : 5px;
+    width: 100px;
+    height : 40px;
+    border-width: 2px;
+    font-size: 20px;
+    
+}
+
